@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'poppins';;
+}
+.container{
+    background-image: url("assets/bg.png");
+    background-size: cover;
+    height: 130vh;
+    width: 99vw;
+}
+.header h1{
+    color: rgb(90, 37, 192);
+    text-align: center;
+    font-size: 60px;
+    padding: 3%;
+}
+.game-image img{
+    height: 450px;
+    margin-left: 15%;
+}
+.play img{
+    height: 60px;
+    margin-left: 55%;
+    padding: 10px;
+}
+.play{
+    display: flex;
+    align-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.play p{
+    margin-top: 15px;
+}
+.score{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size:100px;
+    padding: 20px;
+}
+.game{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.player1 ,.comp{
+    height: 60vh;
+    width: 30vw;
+    color: white;
+    margin: 2px;
+    border: solid yellow;
+    text-align: center;
+}
+#logo{
+    margin-top: 60%;
+    display: flex;
+    justify-content: space-around;
+    
+}   
+.btn{
+    background-color: rgb(250, 178, 43);
+    border-radius: 5px;
+    font-size: 30px;
+    display: none;
+    color: white;
+    font-weight: bold;
+}
+.win-msg{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 0;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}

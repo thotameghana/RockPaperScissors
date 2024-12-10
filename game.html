@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0>
+        <title>Game Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="score">
+                <div id="player1-score">0
+                </div>-
+                <div id="comp-score">0  
+                </div>
+            </div>
+            <div class="game">
+                <div class="player1">
+                    <h1>You</h1>
+                    <div id="logo">
+                    <img id="rock-logo"src="assets/rock-logo.png" alt="">
+                    <img id="paper-logo" src="assets/paper-logo.png" alt="">
+                    <img id="scissors-logo" src="assets/scissors-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="vs">
+                    <img src="assets/vs.png" alt="" height="80%">
+                </div>
+                <div class="comp">
+                    <h1>Comp</h1>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="win-msg">
+                    <p id="text"></p><br>
+                </div>
+                <a href="game.html"><button class="btn">Play Again</button></a>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
